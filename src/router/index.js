@@ -14,7 +14,7 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/single',
+      path: '/single/:id',
       name: 'SinglePage',
       component: SinglePage
     }
